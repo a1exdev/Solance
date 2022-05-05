@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		87BD14BA2823D0EB00C1DFF7 /* SolanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD14B92823D0EB00C1DFF7 /* SolanceApp.swift */; };
+		87BD14BC2823D0EB00C1DFF7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD14BB2823D0EB00C1DFF7 /* ContentView.swift */; };
+		87BD14BE2823D0EB00C1DFF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BD14BD2823D0EB00C1DFF7 /* Assets.xcassets */; };
+		87BD14C12823D0EB00C1DFF7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87BD14C02823D0EB00C1DFF7 /* Preview Assets.xcassets */; };
+		87BD14C32823D0EB00C1DFF7 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD14C22823D0EB00C1DFF7 /* Persistence.swift */; };
+		87BD14C62823D0EB00C1DFF7 /* Solance.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87BD14C42823D0EB00C1DFF7 /* Solance.xcdatamodeld */; };
+		87BD14D02823D0EC00C1DFF7 /* SolanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD14CF2823D0EC00C1DFF7 /* SolanceTests.swift */; };
+		87BD14DA2823D0EC00C1DFF7 /* SolanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD14D92823D0EC00C1DFF7 /* SolanceUITests.swift */; };
+		87BD14DC2823D0EC00C1DFF7 /* SolanceUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87BD14DB2823D0EC00C1DFF7 /* SolanceUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		87BD14CC2823D0EC00C1DFF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87BD14AE2823D0EB00C1DFF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87BD14B52823D0EB00C1DFF7;
+			remoteInfo = Solance;
+		};
+		87BD14D62823D0EC00C1DFF7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 87BD14AE2823D0EB00C1DFF7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 87BD14B52823D0EB00C1DFF7;
+			remoteInfo = Solance;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		87BD14B62823D0EB00C1DFF7 /* Solance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Solance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BD14B92823D0EB00C1DFF7 /* SolanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolanceApp.swift; sourceTree = "<group>"; };
+		87BD14BB2823D0EB00C1DFF7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		87BD14BD2823D0EB00C1DFF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		87BD14C02823D0EB00C1DFF7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		87BD14C22823D0EB00C1DFF7 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		87BD14C52823D0EB00C1DFF7 /* Solance.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Solance.xcdatamodel; sourceTree = "<group>"; };
+		87BD14CB2823D0EC00C1DFF7 /* SolanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BD14CF2823D0EC00C1DFF7 /* SolanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolanceTests.swift; sourceTree = "<group>"; };
+		87BD14D52823D0EC00C1DFF7 /* SolanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SolanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		87BD14D92823D0EC00C1DFF7 /* SolanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolanceUITests.swift; sourceTree = "<group>"; };
+		87BD14DB2823D0EC00C1DFF7 /* SolanceUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SolanceUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		87BD14B32823D0EB00C1DFF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BD14C82823D0EC00C1DFF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BD14D22823D0EC00C1DFF7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		87BD14AD2823D0EB00C1DFF7 = {
+			isa = PBXGroup;
+			children = (
+				87BD14B82823D0EB00C1DFF7 /* Solance */,
+				87BD14CE2823D0EC00C1DFF7 /* SolanceTests */,
+				87BD14D82823D0EC00C1DFF7 /* SolanceUITests */,
+				87BD14B72823D0EB00C1DFF7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		87BD14B72823D0EB00C1DFF7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				87BD14B62823D0EB00C1DFF7 /* Solance.app */,
+				87BD14CB2823D0EC00C1DFF7 /* SolanceTests.xctest */,
+				87BD14D52823D0EC00C1DFF7 /* SolanceUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		87BD14B82823D0EB00C1DFF7 /* Solance */ = {
+			isa = PBXGroup;
+			children = (
+				87BD14B92823D0EB00C1DFF7 /* SolanceApp.swift */,
+				87BD14BB2823D0EB00C1DFF7 /* ContentView.swift */,
+				87BD14BD2823D0EB00C1DFF7 /* Assets.xcassets */,
+				87BD14C22823D0EB00C1DFF7 /* Persistence.swift */,
+				87BD14C42823D0EB00C1DFF7 /* Solance.xcdatamodeld */,
+				87BD14BF2823D0EB00C1DFF7 /* Preview Content */,
+			);
+			path = Solance;
+			sourceTree = "<group>";
+		};
+		87BD14BF2823D0EB00C1DFF7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				87BD14C02823D0EB00C1DFF7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		87BD14CE2823D0EC00C1DFF7 /* SolanceTests */ = {
+			isa = PBXGroup;
+			children = (
+				87BD14CF2823D0EC00C1DFF7 /* SolanceTests.swift */,
+			);
+			path = SolanceTests;
+			sourceTree = "<group>";
+		};
+		87BD14D82823D0EC00C1DFF7 /* SolanceUITests */ = {
+			isa = PBXGroup;
+			children = (
+				87BD14D92823D0EC00C1DFF7 /* SolanceUITests.swift */,
+				87BD14DB2823D0EC00C1DFF7 /* SolanceUITestsLaunchTests.swift */,
+			);
+			path = SolanceUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		87BD14B52823D0EB00C1DFF7 /* Solance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BD14DF2823D0EC00C1DFF7 /* Build configuration list for PBXNativeTarget "Solance" */;
+			buildPhases = (
+				87BD14B22823D0EB00C1DFF7 /* Sources */,
+				87BD14B32823D0EB00C1DFF7 /* Frameworks */,
+				87BD14B42823D0EB00C1DFF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Solance;
+			productName = Solance;
+			productReference = 87BD14B62823D0EB00C1DFF7 /* Solance.app */;
+			productType = "com.apple.product-type.application";
+		};
+		87BD14CA2823D0EC00C1DFF7 /* SolanceTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BD14E22823D0EC00C1DFF7 /* Build configuration list for PBXNativeTarget "SolanceTests" */;
+			buildPhases = (
+				87BD14C72823D0EC00C1DFF7 /* Sources */,
+				87BD14C82823D0EC00C1DFF7 /* Frameworks */,
+				87BD14C92823D0EC00C1DFF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87BD14CD2823D0EC00C1DFF7 /* PBXTargetDependency */,
+			);
+			name = SolanceTests;
+			productName = SolanceTests;
+			productReference = 87BD14CB2823D0EC00C1DFF7 /* SolanceTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		87BD14D42823D0EC00C1DFF7 /* SolanceUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 87BD14E52823D0EC00C1DFF7 /* Build configuration list for PBXNativeTarget "SolanceUITests" */;
+			buildPhases = (
+				87BD14D12823D0EC00C1DFF7 /* Sources */,
+				87BD14D22823D0EC00C1DFF7 /* Frameworks */,
+				87BD14D32823D0EC00C1DFF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				87BD14D72823D0EC00C1DFF7 /* PBXTargetDependency */,
+			);
+			name = SolanceUITests;
+			productName = SolanceUITests;
+			productReference = 87BD14D52823D0EC00C1DFF7 /* SolanceUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		87BD14AE2823D0EB00C1DFF7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					87BD14B52823D0EB00C1DFF7 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					87BD14CA2823D0EC00C1DFF7 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 87BD14B52823D0EB00C1DFF7;
+					};
+					87BD14D42823D0EC00C1DFF7 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = 87BD14B52823D0EB00C1DFF7;
+					};
+				};
+			};
+			buildConfigurationList = 87BD14B12823D0EB00C1DFF7 /* Build configuration list for PBXProject "Solance" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 87BD14AD2823D0EB00C1DFF7;
+			productRefGroup = 87BD14B72823D0EB00C1DFF7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				87BD14B52823D0EB00C1DFF7 /* Solance */,
+				87BD14CA2823D0EC00C1DFF7 /* SolanceTests */,
+				87BD14D42823D0EC00C1DFF7 /* SolanceUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		87BD14B42823D0EB00C1DFF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BD14C12823D0EB00C1DFF7 /* Preview Assets.xcassets in Resources */,
+				87BD14BE2823D0EB00C1DFF7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BD14C92823D0EC00C1DFF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BD14D32823D0EC00C1DFF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		87BD14B22823D0EB00C1DFF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BD14C32823D0EB00C1DFF7 /* Persistence.swift in Sources */,
+				87BD14C62823D0EB00C1DFF7 /* Solance.xcdatamodeld in Sources */,
+				87BD14BC2823D0EB00C1DFF7 /* ContentView.swift in Sources */,
+				87BD14BA2823D0EB00C1DFF7 /* SolanceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BD14C72823D0EC00C1DFF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BD14D02823D0EC00C1DFF7 /* SolanceTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		87BD14D12823D0EC00C1DFF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87BD14DC2823D0EC00C1DFF7 /* SolanceUITestsLaunchTests.swift in Sources */,
+				87BD14DA2823D0EC00C1DFF7 /* SolanceUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		87BD14CD2823D0EC00C1DFF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87BD14B52823D0EB00C1DFF7 /* Solance */;
+			targetProxy = 87BD14CC2823D0EC00C1DFF7 /* PBXContainerItemProxy */;
+		};
+		87BD14D72823D0EC00C1DFF7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 87BD14B52823D0EB00C1DFF7 /* Solance */;
+			targetProxy = 87BD14D62823D0EC00C1DFF7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		87BD14DD2823D0EC00C1DFF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		87BD14DE2823D0EC00C1DFF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		87BD14E02823D0EC00C1DFF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Solance/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9V7VMQZ86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexdev.Solance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		87BD14E12823D0EC00C1DFF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Solance/Preview Content\"";
+				DEVELOPMENT_TEAM = Q9V7VMQZ86;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexdev.Solance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		87BD14E32823D0EC00C1DFF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9V7VMQZ86;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexdev.SolanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solance.app/Solance";
+			};
+			name = Debug;
+		};
+		87BD14E42823D0EC00C1DFF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9V7VMQZ86;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexdev.SolanceTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Solance.app/Solance";
+			};
+			name = Release;
+		};
+		87BD14E62823D0EC00C1DFF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9V7VMQZ86;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexdev.SolanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Solance;
+			};
+			name = Debug;
+		};
+		87BD14E72823D0EC00C1DFF7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Q9V7VMQZ86;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = alexdev.SolanceUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Solance;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		87BD14B12823D0EB00C1DFF7 /* Build configuration list for PBXProject "Solance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BD14DD2823D0EC00C1DFF7 /* Debug */,
+				87BD14DE2823D0EC00C1DFF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87BD14DF2823D0EC00C1DFF7 /* Build configuration list for PBXNativeTarget "Solance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BD14E02823D0EC00C1DFF7 /* Debug */,
+				87BD14E12823D0EC00C1DFF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87BD14E22823D0EC00C1DFF7 /* Build configuration list for PBXNativeTarget "SolanceTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BD14E32823D0EC00C1DFF7 /* Debug */,
+				87BD14E42823D0EC00C1DFF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		87BD14E52823D0EC00C1DFF7 /* Build configuration list for PBXNativeTarget "SolanceUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87BD14E62823D0EC00C1DFF7 /* Debug */,
+				87BD14E72823D0EC00C1DFF7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		87BD14C42823D0EB00C1DFF7 /* Solance.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				87BD14C52823D0EB00C1DFF7 /* Solance.xcdatamodel */,
+			);
+			currentVersion = 87BD14C52823D0EB00C1DFF7 /* Solance.xcdatamodel */;
+			path = Solance.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 87BD14AE2823D0EB00C1DFF7 /* Project object */;
+}
