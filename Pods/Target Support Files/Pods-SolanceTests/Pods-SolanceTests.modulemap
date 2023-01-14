@@ -1,0 +1,6 @@
+framework module Pods_SolanceTests {
+  umbrella header "Pods-SolanceTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
